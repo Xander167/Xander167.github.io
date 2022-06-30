@@ -1,0 +1,306 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+html {
+    height: 100%;
+}
+* {
+    margin: 0px;
+    border: 0px;
+}
+.container {
+    background-color: rgb(41, 38, 46);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.61),rgba(0, 0, 0, 0.6)) , url(https://pmxi.iscdn.net/2021/12/4082_ferrandis_2022_star-yamaha_sx_358.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top -60px;
+
+}
+.container2 {
+    background-color: rgb(41, 38, 46);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.61),rgba(0, 0, 0, 0.6)) , url(https://www.motocross.it/wp-content/uploads/2021/10/Tony-Cairoli-Ho-fatto-di-tutto-per-salire-sul-podio-2021A.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container3 {
+    background-color: rgb(41, 38, 46);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.46),rgba(0, 0, 0, 0.45)) , url(https://p.vitalmx.com/photos/users/64/photos/14367/original_627401778_1221156299.jpg);
+    background-size:auto;
+    background-repeat: no-repeat;
+}
+nav ul li .active {
+    color: #0088a9;
+    text-decoration: underline;
+    text-underline-offset: 7px;
+    text-decoration-thickness: 3px;
+}
+.nav_links li, a, button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #ecf0f1;
+    text-decoration: none;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 3%;
+    background-color: rgba(0, 0, 0, 0.61);
+    position: fixed;
+    transition: 0.6s;
+    width: 100%;
+    top: 0;
+    z-index: 1000000;
+}
+
+.logo {
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+}
+.nav_links {
+    list-style: none;
+}
+.nav_links li {
+    display: inline-block;
+    padding: 15px 20px;
+}
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
+.nav_links li a:hover {
+    color: #0088a9;
+}
+.button1 {
+    padding: 9px 25px;
+    background-color: rgba(0,136,169,1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    margin-right: 50px;
+}
+button:hover {
+    background-color: rgba(1, 105, 131, 0.8);
+}
+.sub-menu1{
+    display: none;
+}
+.navigation ul li:hover .sub-menu1 {
+    display: block;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 1);
+    margin-top: 15px;
+    margin-left: -60px;
+}
+.navigation ul li:hover .sub-menu1 ul {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+.navigation ul li:hover .sub-menu1 ul li {
+    width: 150px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: left;
+}
+.sub-menu1 ul li:hover{
+    display: flex;
+    flex-direction: column;
+}
+.sub-menu2{
+    display: none;
+}
+.navigation ul li:hover .sub-menu2 {
+    display: block;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 1);
+    margin-top: 15px;
+    margin-left: -70px;
+}
+.navigation ul li:hover .sub-menu2 ul {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+.navigation ul li:hover .sub-menu2 ul li {
+    width: 180px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-right: 40px;
+    padding-left: 5px;
+    text-align: left;
+}
+.sub-menu2 ul li:hover{
+    display: flex;
+    flex-direction: column;
+}
+main {
+    height: 400px;
+    height: 100%;
+    padding-top: 100px;
+}
+h1 {
+    font-size: 53px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+    margin-bottom: 40px;
+    text-align: center;
+    padding-top: 200px;
+}
+.p1 p {
+    font-size: 18px;
+    color: white;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 1000px;
+    text-align: center;
+    margin-bottom: 20%;
+}
+main p a {
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 18px;
+}
+main p .LINK:hover {
+    color: #329ab4;
+    transition: 0.2s ease-in-out 0s;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 18px;
+}
+.p2 h2{
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.p2 p, .p3 p, .p4 p, .p5 p, .p6 p, .p7 p, .p10 p {
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    background-color: white;
+    padding: 10px 20%;
+    letter-spacing: 0.2px;
+}
+.p7 .p8 {
+    padding-top: 50px;
+}
+.p7 #History {
+    padding-bottom: 50px;
+}
+.p7 .p9 {
+    padding-top: 30px;
+}
+.p2 ol {
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    background-color: white;
+    padding: 5px 20%;
+    list-style: none;
+}
+.p2 ol li {
+    padding: 5px;
+}
+h3 {
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.p7 h3 {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.p7 h4 {
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2 {
+    text-align: center;
+    padding-bottom: 300px;
+    padding-top: 200px;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 53px;
+    color: rgb(255, 255, 255);
+
+}
+.p2 ol li a, .p3 ul li a {
+    color: #0088a9;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+.p2 ol li a:hover, .p3 ul li a:hover {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+    text-decoration-thickness: 2px;
+}
+.p3 ul, .p4 ul, .p5 ul, .p6 ul {
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    background-color: white;
+    padding: 5px 20%;
+    list-style: disc;
+}
+.p3 ul li, .p4 ul li, .p5 ul li, .p6 ul li {
+    padding: 5px 0px;
+}
+.p4 p a {
+    color: rgba(7, 136, 168, 0.8);
+    text-decoration: none;
+}
+.p4 p a:hover {
+    color: rgba(7, 136, 168, 0.8);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+    text-decoration-thickness: 2px;
+}
+.p4 p {
+    text-align: left;
+}
+.title {
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+}
+footer {
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+}
+footer p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
